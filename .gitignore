@@ -5,8 +5,19 @@ build/
 dist/
 wheels/
 *.egg-info
+.pytest_cache/
+.ruff_cache/
 
 # Virtual environments
-.venv
+.venv/
 venv/
+
+# Secrets - never commit these
 .env
+
+# Local model cache
+.cache/
+
+# OS / editor cruft
+Thumbs.db
+.DS_Store
